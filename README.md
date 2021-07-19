@@ -8,13 +8,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-#####  Bloco 1: [Introdução - Unix & Shell] 
-(https://github.com/fariaguga/trybe-exercises/tree/master/01-fundamentos/bloco-01-unix-e-shell)
+#####  Bloco 1: [Introdução - Unix & Shell](https://github.com/fariaguga/trybe-exercises/tree/master/01-fundamentos/bloco-01-unix-e-shell)
 
 - [X] 1-3: _Unix & Shell- Part 1_
 - [X] 1-4: _Unix & Shell- Part 2_
 
-#####  Bloco 2: Git & GitHub
+#####  Bloco 2: [Git & GitHub](https://github.com/fariaguga/trybe-exercises/tree/master/01-fundamentos/bloco-02-git-github-e-internet)
 
 - [X] 2-1: _O que são e para que serve?_
 - [ ] 2-2: _Entendendo os comandos_
