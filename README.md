@@ -16,12 +16,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 #####  Bloco 2: [Git & GitHub](https://github.com/fariaguga/trybe-exercises/tree/master/01-fundamentos/bloco-02-git-github-e-internet)
 
 - [X] 2-1: _O que são e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [X] 2-2: _Entendendo os comandos_
+- [X] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introduçãoo - HTML & CSS
+##### Bloco 3: [Introduçãoo - HTML & CSS](https://github.com/fariaguga/trybe-exercises/tree/master/01-fundamentos/bloco-03-introducao-a-html-e-css)
 
-- [ ] 3-1: _HTML & CSS - Estruturas de página_
+- [X] 3-1: _HTML & CSS - Estruturas de página_
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
