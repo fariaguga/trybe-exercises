@@ -6,19 +6,21 @@
   }
   
   .goomba {
-    width: 100px;
+    width: 70px;
     
   }
   
   .baloon {
+  width: ;
   
   }
   
   .speach {
     font-size: 25px;
+    
   }
   
   .bowser {
     width: 200px;
-   
+   right:30%;
   }
