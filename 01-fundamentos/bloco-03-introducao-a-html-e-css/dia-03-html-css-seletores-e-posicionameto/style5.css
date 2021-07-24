@@ -45,7 +45,7 @@ ol li{
     background-color: pink;
 }
 
-li .programas:hover{
+.kkk:hover{
     font-weight: bold;
 
 }
@@ -66,3 +66,30 @@ li .programas:hover{
 .aliados li:nth-of-type(5):hover{
     background-color:green;
 }
+
+/* OUTRA OPÇÃO --->
+
+#aliados li a:hover {
+  font-weight: 700;
+}
+
+#aliados li a[href*="stackoverflow"] {
+  color: orange;
+}
+
+#aliados li a[href*="w3schools"] {
+  color: green;
+}
+
+#aliados li a[href*="mozilla"] {
+  color: black;
+}
+
+#aliados li a[href*="devdocs"] {
+  color: yellow;
+}
+
+#aliados li a[href*="trybe"] {
+  color: green;
+}
+*/
