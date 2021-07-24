@@ -1,0 +1,20 @@
+
+
+
+ol li:nth-child(odd) {
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+ol li:nth-last-child(even){
+    background-color: green;
+}
+
+/* OUTRA OPÇÃO --->
+.ímpar{
+    background-color: yellow;
+}
+
+.par{
+    background-color: green;
+}
