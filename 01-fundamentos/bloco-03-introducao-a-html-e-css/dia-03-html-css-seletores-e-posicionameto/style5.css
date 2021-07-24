@@ -10,6 +10,7 @@ ol li:nth-last-child(even){
     background-color: green;
 }
 
+
 /* OUTRA OPÇÃO --->
 .ímpar{
     background-color: yellow;
@@ -17,4 +18,51 @@ ol li:nth-last-child(even){
 
 .par{
     background-color: green;
+} */
+
+.header{
+    color: red;
+}
+
+.italico{
+    font-size: 40px ;
+    border: 1px solid black;
+}
+
+li{
+    font-size: 20px;
+}
+
+ol li{
+    font-weight: bold;
+}
+
+.kkk{
+    color: blue;
+}
+
+.jav{
+    background-color: pink;
+}
+
+li .programas:hover{
+    font-weight: bold;
+
+}
+
+.aliados li:nth-child(1):hover{
+    background-color:orange;
+}
+
+.aliados li:nth-of-type(2):hover{
+    background-color:green;
+}
+.aliados li:nth-of-type(3):hover{
+    background-color:black;
+}
+.aliados li:nth-of-type(4):hover{
+    background-color:yellow;
+}
+.aliados li:nth-of-type(5):hover{
+    background-color:green;
 }
