@@ -1,0 +1,95 @@
+
+
+
+ol li:nth-child(odd) {
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+ol li:nth-last-child(even){
+    background-color: green;
+}
+
+
+/* OUTRA OPÇÃO --->
+.ímpar{
+    background-color: yellow;
+}
+
+.par{
+    background-color: green;
+} */
+
+.header{
+    color: red;
+}
+
+.italico{
+    font-size: 40px ;
+    border: 1px solid black;
+}
+
+li{
+    font-size: 20px;
+}
+
+ol li{
+    font-weight: bold;
+}
+
+.kkk{
+    color: blue;
+}
+
+.jav{
+    background-color: pink;
+}
+
+.kkk:hover{
+    font-weight: bold;
+
+}
+
+.aliados li:nth-child(1):hover{
+    background-color:orange;
+}
+
+.aliados li:nth-of-type(2):hover{
+    background-color:green;
+}
+.aliados li:nth-of-type(3):hover{
+    background-color:black;
+}
+.aliados li:nth-of-type(4):hover{
+    background-color:yellow;
+}
+.aliados li:nth-of-type(5):hover{
+    background-color:green;
+}
+
+/* OUTRA OPÇÃO --->
+
+#aliados li a:hover {
+  font-weight: 700;
+}
+
+#aliados li a[href*="stackoverflow"] {
+  color: orange;
+}
+
+#aliados li a[href*="w3schools"] {
+  color: green;
+}
+
+#aliados li a[href*="mozilla"] {
+  color: black;
+}
+
+#aliados li a[href*="devdocs"] {
+  color: yellow;
+}
+
+#aliados li a[href*="trybe"] {
+  color: green;
+}
+*/
