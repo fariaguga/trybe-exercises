@@ -1,0 +1,53 @@
+body{
+    font-family: montserrat;
+    margin:20px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: green;
+}
+
+h2{
+    color: green;
+}
+
+h3{
+    color: green;
+}
+
+h4{
+    color: green;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    border:2px solid black;
+    border-style: none;
+    
+    
+}
+
+ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+#haha{
+    display: inline-block;
+    float:right;
+
+}
+
+#hehe{
+    display: inline-block;
+}
+
