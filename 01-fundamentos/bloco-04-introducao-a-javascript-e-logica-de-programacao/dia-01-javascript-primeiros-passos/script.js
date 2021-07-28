@@ -74,12 +74,26 @@ else{
  let ang3 = 45;
  let soma = (ang1 + ang2 + ang3);
 
- if(soma === 180){
+ if(soma === 180 && soma > 0){
      console.log("true");
  }
  else{
      console.log("false");
  }
+
+ /* 6 - Escreva um 
+ programa que receba o nome de uma peça 
+ de xadrez e retorne os movimentos que ela faz. */
+
+ let peça = "BiShop".toLowerCase();
+ if(peça === "bishop"){
+     console.log("diagonals");
+ }
+ else{
+     console.log("error");
+ }
+
+
 
 
 
