@@ -81,13 +81,23 @@ Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";*/
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let contador = 0 ;
 for(let index = 0; index < numbers.length; index += 1){
-    if(numbers[index] % 2 === 0){
+    if(numbers[index] % 2 != 0){
         contador += 1;
     }
 }
 console.log(contador);
 
+/* 7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o;*/
 
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (index = 0; index < numbers.length; index +=1){
+    let numMin = numbers.reduce(function(a,b){
+        return Math.min(a,b);
+    });
+
+    console.log (numMin);
+}
     
 
 
