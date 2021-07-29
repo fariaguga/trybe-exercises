@@ -101,11 +101,46 @@ for (index = 0; index < numbers.length; index +=1){
 
 
 /* 8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;*/
+
+
+
 let numbers =[];
 for(let index = 0 ; index<=25 ; index += 1){
      numbers = [index];
     console.log(index);
 }
+
+
+/*  9 - Utilizando o array criado no exercício anterior imprima o
+ resultado da divisão de cada um dos elementos por 2 .*/
+
+
+ let numbers =[];
+for(let index = 0 ; index<=25 ; index += 1){
+     numbers = index;
+     let div = numbers/2;
+     console.log(div);  
+
+}
+
+
+/* Bônus -
+Para os próximos dois exercícios leia este a
+rtigo e tente entender o que está acontencedo no código abaixo:*/
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (let index = 1; index < array.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if (array[index] < array[secondIndex]) {
+        let position = array[index];
+        array[index] = array[secondIndex];
+        array[secondIndex] = position;
+      }
+    }
+  }
+
+
+
     
 
 
