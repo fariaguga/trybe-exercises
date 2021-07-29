@@ -58,6 +58,24 @@ if(media > 20){
 else{
     console.log("Valor menor que 20 :( !");
 }
+
+
+/* 5 - Utilizando for , descubra qual o maior valor 
+contido no array e imprima-o;*/
+
+
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (index = 0; index < numbers.length; index +=1){
+    let numMax = numbers.reduce(function(a,b){
+        return Math.max(a,b);
+    });
+
+    console.log (numMax);
+}
+
+
+
     
 
 
