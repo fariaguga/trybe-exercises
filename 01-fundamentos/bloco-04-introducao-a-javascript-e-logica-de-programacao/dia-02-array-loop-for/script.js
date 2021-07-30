@@ -74,6 +74,17 @@ for (index = 0; index < numbers.length; index +=1){
     console.log (numMax);
 }
 
+
+/* let numeroMax = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] > numeroMax) {
+    numeroMax = numbers[index];
+  }
+}
+
+console.log(numeroMax); */
+
 /* 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. 
 Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";*/
 
@@ -139,12 +150,61 @@ for (let index = 1; index < array.length; index += 1) {
     }
   }
 
+  /* Bonus - 1 Ordene o array numbers em ordem crescente e imprima seus valores;*/
+
+  /*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+  numbers.sort(function(a,b){
+      if (a>b) return 1;
+      if(a<b) return -1;
+      return 0;
+  });
+  console.log(numbers);*/
 
 
+  let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  for (let inded = 0; inded < index; inded+= 1) {
+    if (numbers[index] < numbers[inded]) {
+      let position = numbers[index];
+      numbers[index] = numbers[inded];
+      numbers[inded] = position;
+    }
+  }
+}
+
+console.log(numbers);
+  
+
+
+/* Bônus - 2 Ordene o array numbers em ordem decrescente e imprima seus valores;*/
+
+
+  let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+  numbers.sort(function(a,b){
+      if (a>b) return -1;
+      if(a<b) return +1;
+      return 0;
+  });
+  console.log(numbers);
     
 
+  /* Bônus 3 - Agora você irá criar um novo array a partir do array numbers , sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente do array anterior multiplicado pelo próximo. Por exemplo: o primeiro 
+  valor do novo array deverá ser 45, pois é a multiplicação de 5 (valor correspondente) e 9 (próximo valor). Caso não haja próximo valor, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push .*/
 
 
+  let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let newArray = [];
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (index + 1 < numbers.length) {
+    newArray.push(numbers[index] * numbers[index + 1]);
+  } else {
+    newArray.push(numbers[index] * 2);
+  }
+}
+
+console.log(newArray);
  
 
 
