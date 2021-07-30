@@ -59,4 +59,47 @@ for( let index = 1 ; index <= n ; index += 1){
 }
 
 
+/* 4 - Depois, faça uma pirâmide com n asteriscos de base:
+Copiar
+n = 5
+
+  *
+ ***
+*****  */
+
+let n = 5;
+let ka = n-1
+let fdp = 1;
+
+for(let index = 1 ; index <= (3) ; index += 1){
+    console.log(" ".repeat(ka/2) + "*".repeat(fdp));
+    ka -= 2;
+    fdp += 2;
+    
+    
+}
+
+
+let n = 4;
+let symbol = '*';
+let inputLine = '';
+
+let midOfMatrix = (n + 1) / 2;
+let controlLeft = midOfMatrix;
+let controlRight = midOfMatrix;
+
+for (let lineIndex = 0; lineIndex <= midOfMatrix; lineIndex += 1) {
+  for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) {
+    if (columnIndex > controlLeft && columnIndex < controlRight) {
+      inputLine = inputLine + symbol;
+    } else {
+      inputLine = inputLine + ' ';
+    }
+  }
+  console.log(inputLine);
+  inputLine = '';
+  controlRight += 1;
+  controlLeft -= 1
+};
+
 
