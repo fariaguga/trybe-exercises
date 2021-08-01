@@ -29,13 +29,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 4: [Introdução - JavaScript](https://github.com/fariaguga/trybe-exercises/tree/master/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
 
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [X] 4-1: _JavaScript - Primeiros passos_
+- [X] 4-2: _JavaScript - Array e loop For_
+- [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _[Projeto - Playground Functions]()_
 
-##### Bloco 5: Introdução - JavaScript - Projetos
+##### Bloco 5: [Introdução - JavaScript - Projetos](https://github.com/fariaguga/trybe-exercises/tree/master/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
 
 - [ ] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
