@@ -124,7 +124,7 @@ Retorno esperado: false */
 
 
 function palindromo(palavra){
-    for(let key in palindromo){
+    for(let key in palavra){
         if(palavra[key] != palavra[(palavra.length -1) - key]){
          return false;
         }
@@ -133,7 +133,7 @@ function palindromo(palavra){
     }
     return true;
 }
-
+console.log(palindromo("arara"));
 
 /* 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
 Array de teste: [2, 3, 6, 7, 10, 1]; .
@@ -141,9 +141,38 @@ Valor esperado no retorno da função: 4 .*/
 
 let inteiros = [2, 3, 6, 7, 10, 1];
 
-function maiorindex(inteiros){
-    
+function maiorindex(numeros){
+    let maiorindex = 0;
+    for(let index in numeros){
+        if(numeros[maiorindex] < numeros[index]){
+            maiorindex = index;
+        }
+    }
+return maiorindex;
+
 }
+
+console.log(maiorindex (inteiros));
+
+
+/* 3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+Array de teste: [2, 4, 6, 7, 10, 0, -3]; .
+Valor esperado no retorno da função: 6 .*/
+
+let inteiros = [2, 4, 6, 7, 10, 0, -3];
+
+function menorindex(numeros){
+    let menorindex = 0;
+    for(let index in numeros){
+        if(numeros[menorindex] > numeros[index]){
+            menorindex = index;
+        }
+    }
+return menorindex;
+
+}
+
+console.log(menorindex (inteiros));
 
 
 
