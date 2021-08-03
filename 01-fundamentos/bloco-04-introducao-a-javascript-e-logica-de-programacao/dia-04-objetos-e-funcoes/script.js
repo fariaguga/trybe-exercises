@@ -195,4 +195,73 @@ function maiorPalavra(palavras) {
 
 
 
+  /*6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
+Valor de teste: N = 5 .
+Valor esperado no retorno da função: 1+2+3+4+5 = 15 .*/
+
+
+function gauss(numero){
+    contador = 0;
+    for(let index = 0 ; index <= numero; index += 1){
+       
+            contador += index;
+
+        }
+        return contador;
+    }
+    console.log(gauss(5));
+
+
+    /* 7 -  Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word . 
+    Considere que a string ending sempre será menor que a string word .
+    Valor de teste: 'trybe' e 'be'
+Valor esperado no retorno da função: true
+verificaFimPalavra('trybe', 'be') ;
+Retorno esperado: true
+verificaFimPalavra('joaofernando', 'fernan') ;
+Retorno esperado: false*/
+
+function frase(word,ending){
+ 
+  if(word.length > ending.length ){
+    return true;
+  }
+  return false;
+}
+console.log(frase("faria","gustavo"));
+
+
+
+
+
+    /*1*/
+    function compareTrue (parametro1,parametro2){
+        if(parametro1 === true && parametro2 === true){
+            return true;
+        }
+        
+
+        else{
+            return false
+
+        }
+        
+    
+    }
+    console.log(compareTrue(false, true));
+
+
+    /*2*/
+    function calcArea(base,height){
+        calcArea = (base * height)/2;
+        return calcArea;
+        
+
+    
+
+
+
+
+
+
 
