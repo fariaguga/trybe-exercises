@@ -119,6 +119,32 @@
         let image= section2.appendChild(creatorImage);
 
 
+        /* 8 - Adicione uma lista não ordenada com os valores de 
+        1 a 10 por extenso, ou seja, um , dois , três , ... 
+        como valores da lista. Essa lista deve ser filha do section criado no passo 6;*/ 
+
+       /* let creatorUl= document.createElement("ul");
+        let numeros =["um","dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+        for(let index= 0; index < numeros.length; index +=1){
+            let creatorLi= document.createElement("li");
+            creatorLi.innerText= numeros[index];            
+        }
+        let ul= section3.appendChild(creatorLi);*/ 
+        
+        let creatorUl = document.createElement('ul');
+        section3.appendChild(creatorUl);
+        let arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis','Sete', 'Oito', 'Nove', 'Dez']
+        for (let num in arrayNumbers) {
+        let creatorLi = document.createElement('li');
+        creatorLi.innerHTML = arrayNumbers[num];
+        creatorUl.appendChild(creatorLi);
+      }
+
+      
+
+        
+
+
        
        
 
