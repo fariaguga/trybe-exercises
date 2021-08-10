@@ -82,7 +82,15 @@
 
        let creatorSection= document.createElement("section");
        creatorSection.className= "center-content";
-       let section= main.appendChild(creatorSection);   
+       let section= main.appendChild(creatorSection);
+       
+       
+       /* 4 - Adicione a tag p como filho do section 
+       criado no passo 3 e coloque algum texto;*/
+
+       let creatorParagrafo= document.createElement("p");
+       creatorParagrafo.innerText= "A vida só é curta para quem torna ela curta";
+       let paragrafo= section.appendChild(creatorParagrafo);
 
 
       
