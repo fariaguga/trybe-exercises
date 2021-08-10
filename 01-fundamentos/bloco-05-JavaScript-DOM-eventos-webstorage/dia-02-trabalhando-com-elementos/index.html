@@ -130,7 +130,7 @@
             creatorLi.innerText= numeros[index];            
         }
         let ul= section3.appendChild(creatorLi);*/ 
-        
+
         let creatorUl = document.createElement('ul');
         section3.appendChild(creatorUl);
         let arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis','Sete', 'Oito', 'Nove', 'Dez']
@@ -140,12 +140,14 @@
         creatorUl.appendChild(creatorLi);
       }
 
-      
 
-        
+      /* 9 - Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.*/
 
-
+       for(let index=0 ; index<=3 ; index+= 1){
+       let CreatorH1Dois = document.createElement("h1");  
+       main.appendChild(CreatorH1Dois);
        
+    }
        
 
 
