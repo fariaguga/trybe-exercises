@@ -45,3 +45,18 @@ function createDaysOfDecember(){
 createDaysOfDecember();
 
 
+/*2*/
+
+function createButton(){
+    let div = document.querySelector(".buttons-container");
+    let string = "Feriados";
+    let button = document.createElement("button");
+    button.className = ("btn-holiday");
+    button.innerText = string;
+    div.appendChild(button);
+
+
+}
+createButton();
+
+
