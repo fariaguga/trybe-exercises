@@ -179,11 +179,11 @@ function createCompromisso(){
     })
 
     button.addEventListener("keyup",function(event){        
-        if (event.keycode === 13 && input2.value.length > 0 ){
+        if (event.keyCode === 13 && input2.value.length > 0 ){
             let li2 = document.createElement("li");
-            li2.innerHTML = input2.value;
+            li2.innerText = input2.value;
             ul5.appendChild(li2);
-            input2.value = "";
+            input2.value = '';
 
         }
 
