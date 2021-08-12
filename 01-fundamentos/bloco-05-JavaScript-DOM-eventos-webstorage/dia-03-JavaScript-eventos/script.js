@@ -101,7 +101,7 @@ createFridayButton()
 function fridayButtonStyle(){
     let buttonSexta = document.querySelector("#btn-friday");
     let sextaDays = document.querySelectorAll(".friday");
-    let array = [4,11,18];
+    let arraysexta = [4,11,18];
     
     buttonSexta.addEventListener("click",function(){
         let stringSexta = "Friday o//";
@@ -110,13 +110,37 @@ function fridayButtonStyle(){
                sextaDays[i].innerHTML = stringSexta;
            }
            else{
-               sextaDays[i].innerHTML = array[i];
+               sextaDays[i].innerHTML = arraysexta[i];
 
            }
         }
     })
 };
 fridayButtonStyle()
+
+/*6*/
+
+function zoomInDays(){
+    let dias = document.querySelector("#days");
+    
+   dias.addEventListener("mouseover",function(event){
+        event.target.style.fontSize = "30px";
+        event.target.fontWwight = "600";
+    })
+};
+zoomInDays()
+
+function zoomOutDays(){
+    let dias = document.querySelector("#days");
+    
+   dias.addEventListener("mouseout",function(event){
+        event.target.style.fontSize = "20px";
+        event.target.fontWwight = "200";
+    })
+};
+zoomOutDays()
+
+
 
 
 
