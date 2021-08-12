@@ -51,12 +51,45 @@ function createButton(){
     let div = document.querySelector(".buttons-container");
     let string = "Feriados";
     let button = document.createElement("button");
-    button.className = ("btn-holiday");
+    button.id = "btn-holiday";
     button.innerText = string;
     div.appendChild(button);
 
 
 }
 createButton();
+
+
+/*3*/
+
+function buttonStyle(){
+    let button2 = document.querySelector("#btn-holiday");
+    let hollidays = document.querySelectorAll(".holiday")
+    let backgroundColor = "rgb(238,238,238)";
+    let newColor = "red";
+
+    button2.addEventListener("click", function(){
+        for(let index3 = 0 ; index3 < hollidays.length; index3 += 1){
+            if(hollidays[index3].style.backgroundColor = newColor){
+                hollidays[index3].style.backgroundColor === backgroundColor;
+            }
+            else{
+                hollidays[index3].style.backgroundColor = newColor;
+            }
+        }
+    })
+    
+
+};
+buttonStyle();
+
+function createFridayButton(){
+    let buttonFriday = document.createElement("button");
+    let div2 = document.querySelector(".buttons-container");
+    buttonFriday.id = "btn-friday";
+    div2.appendChild(buttonFriday);
+    
+}
+
 
 
