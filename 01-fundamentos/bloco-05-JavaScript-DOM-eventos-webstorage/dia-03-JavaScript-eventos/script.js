@@ -141,6 +141,17 @@ function zoomOutDays(){
 zoomOutDays()
 
 
+function createTask(){
+    let div3 = document.querySelector(".my-tasks");
+    let string3 = "Cozinhar";
+    let tasks = document.createElement("span");
+    tasks.innerHTML = string3;
+    div3.appendChild(tasks);
+
+};
+createTask()
+
+
 
 
 
