@@ -89,10 +89,36 @@ function createFridayButton(){
     let buttonFriday = document.createElement("button");
     let div2 = document.querySelector(".buttons-container");
     buttonFriday.id = "btn-friday";
+    buttonFriday.innerText = "Friday";
     div2.appendChild(buttonFriday);
     
 };
 createFridayButton()
+
+
+/*5*/
+
+function fridayButtonStyle(){
+    let buttonSexta = document.querySelector("#btn-friday");
+    let sextaDays = document.querySelectorAll(".friday");
+    let array = [4,11,18];
+    
+    buttonSexta.addEventListener("click",function(){
+        let stringSexta = "Friday o//";
+        for(let i = 0 ; i < sextaDays.length ; i += 1){
+           if(sextaDays[i] !== stringSexta){
+               sextaDays[i].innerHTML = stringSexta;
+           }
+           else{
+               sextaDays[i].innerHTML = array[i];
+
+           }
+        }
+    })
+};
+fridayButtonStyle()
+
+
 
 
 
