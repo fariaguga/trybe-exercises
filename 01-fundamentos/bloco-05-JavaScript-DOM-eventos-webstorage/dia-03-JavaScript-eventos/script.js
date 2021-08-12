@@ -83,13 +83,17 @@ function buttonStyle(){
 };
 buttonStyle();
 
+/*4*/ 
+
 function createFridayButton(){
     let buttonFriday = document.createElement("button");
     let div2 = document.querySelector(".buttons-container");
     buttonFriday.id = "btn-friday";
     div2.appendChild(buttonFriday);
     
-}
+};
+createFridayButton()
+
 
 
 
