@@ -140,6 +140,8 @@ function zoomOutDays(){
 };
 zoomOutDays()
 
+/*7*/
+
 
 function createTask(){
     let div3 = document.querySelector(".my-tasks");
@@ -150,6 +152,49 @@ function createTask(){
 
 };
 createTask()
+
+
+/*8*/
+
+/*9*/
+
+/*10*/
+
+/*Bonus*/
+
+function createCompromisso(){
+    let buttonAdd = document.querySelector("#btn-add");
+    let input2 = document.querySelector("#task-input");
+    let ul5 = document.querySelector(".task-list");
+    
+    buttonAdd.addEventListener("click", function(){
+        if(input2.value.length === 0){
+            alert("ERRO");
+        }
+        else{
+            let li1 = document.createElement("li");
+            li1.innerText = input2.value;
+            ul5.appendChild(li1);
+        }
+    })
+
+    button.addEventListener("keyup",function(event){        
+        if (event.keycode === 13 && input2.value.length > 0 ){
+            let li2 = document.createElement("li");
+            li2.innerHTML = input2.value;
+            ul5.appendChild(li2);
+            input2.value = "";
+
+        }
+
+    });
+
+
+};
+createCompromisso()
+
+
+
 
 
 
