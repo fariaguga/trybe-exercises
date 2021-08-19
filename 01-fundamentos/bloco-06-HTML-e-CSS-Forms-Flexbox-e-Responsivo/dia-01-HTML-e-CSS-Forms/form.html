@@ -12,10 +12,11 @@
     <header>
         <h1>Cadastre seu currículo</h1>
     </header>
-    <fieldset id="field">
-        <legend>Dados</legend>
+    <form action="">
+    <fieldset class="field">
+        <legend>Dados pessoais</legend>
         <div class=".container">
-            <label for="Dados pessoais">Nome</label>
+            <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" required maxlength="40" placeholder="Digite seu nome">
         </div>
         <div class=".container">
@@ -49,9 +50,30 @@
 
     </fieldset>
 
+    <fieldset class="field">
+        <legend>Dados do seu último emprego</legend>
+        <div class=".container">
+            <label for="Cv">Resumo do currículo</label>
+            <textarea type="text" maxlength="500" required cols= "40" rows="8" id="cv" name="cv" required maxlength="40" placeholder="Digite seu nome"> </textarea>
+        </div>
+        <div class=".container">
+            <label for="cargo">Cargo</label>
+            <input type="text" id="cargo" name="cargo" maxlength="40" required placeholder="Digite seu cargo" >
+        </div>
+        <div class=".container"> 
+            <label for="date">Data de início</label>
+            <input type="text" name="date" id="date" maxlength="10" required placeholder="dd/mm/aaaa">
+        </div>
+    </filedset>
+
+    <div>
+        <button type="submit" id="enviar">ENVIAR</button>
+    </div>
+
     <div>
         <button id="clear">Limpar tudo</button>
     </div>
+</form>
     </main>
     <script src="script.js"></script>
 </body>
