@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastre seu currículo</h1>
+    </header>
+    <fieldset>
+        <legend>Dados</legend>
+        <div>
+            <label for="Dados pessoais">Nome</label>
+            <input type="text" id="nome" name="nome" required maxlength="40" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" maxlength="50" required placeholder="Digite seu email">
+        </div>
+        <div> 
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" maxlength="11" required placeholder="Digite seu CPF">
+        </div>
+        <div>
+            <label for="endereco">Endereço</label>
+        <input type="text" name="endereco" id="endereco" maxlength="200" required placeholder="Digite seu endereço">
+         </div>
+        <div>
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" maxlength="28" required placeholder="Digite sua Cidade">
+        </div>                         
+        <div id="estados">
+            
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado" required>
+            <option disabled selected value>Selecione seu estado</option>
+        </select>
+            </div>
+            <div>
+                <input type="radio" id="tipo1" name="tipo" value="casa" required> Casa
+                <input type="radio" id="tipo2" name="tipo" value="apartamento" required >Apartamento
+                
+            </div>
+        
+
+
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+</html>
