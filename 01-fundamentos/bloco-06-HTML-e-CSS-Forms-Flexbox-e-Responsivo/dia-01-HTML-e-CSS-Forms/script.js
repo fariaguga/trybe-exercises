@@ -17,12 +17,9 @@ button.addEventListener("click" ,function(){
     for(let index = 0 ; index < boxs.length; index += 1){
     boxs[index].value = "";                
     }
-})
+}) 
 
 /* CONDIÇÕES PARA A DATA */
-
-
-
 let sendForms = document.getElementById("enviar");
 sendForms.addEventListener("click",function(){
 let date = document.getElementById("date").value;
@@ -42,3 +39,5 @@ if(year < 0){
 }
 
 })
+
+
