@@ -7,6 +7,7 @@
   
   body {
     background-color: rgb(247, 247, 247);
+    
   }
   
   .header-container {
@@ -17,7 +18,7 @@
   .logo-container {
     display: flex;
     justify-content: center;
-    width: 268px;
+    width:max-content;
     order: 1;
   }
   
