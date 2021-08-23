@@ -40,3 +40,15 @@
     list-style: none;
     margin-right: 10px;
   } 
+
+  ul li:nth-child(1){
+      align-self: center;
+  }
+
+  ul li:nth-child(2){
+    align-self: center;
+}
+
+ul li:nth-child(3){
+    align-self: center;
+}
