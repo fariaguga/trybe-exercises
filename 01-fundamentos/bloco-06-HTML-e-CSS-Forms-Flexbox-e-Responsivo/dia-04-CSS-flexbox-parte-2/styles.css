@@ -7,7 +7,6 @@
   
   body {
     background-color: rgb(247, 247, 247);
-    
   }
   
   .header-container {
@@ -17,15 +16,15 @@
   
   .logo-container {
     display: flex;
+    flex-basis: 268px;
     justify-content: center;
-    width:max-content;
-    order: 1;
   }
   
   .menu-container {
     display: flex;
-    width: 500px;
-    order: 2;
+    flex-basis: 500px;
+    flex-grow: 1;
+    order: 1;
   }
   
   .menu-container ul {
@@ -40,4 +39,4 @@
     font-size: 1.3rem;
     list-style: none;
     margin-right: 10px;
-  }
+  } 
