@@ -103,6 +103,55 @@ footer{
     margin: 20px;
     font-size: 20px;
 }
+  }
+
+  @media  (min-width: 376px) and (max-width: 768px){
+      .main{
+          display: flex;
+          justify-content: space-evenly;
+      }
+
+      .container nav{
+        display: none;  
+                
+    }
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+        background-color: burlywood;
+    }
+
+    h2{
+        margin-left: 0px;
+        font-size: 40px;
+    }
+
+
+    .aside-one ul {
+        font-size: 20px;         
+        margin-bottom: 40px;                    
+  }
+
+    .aside-two ul {
+      font-size: 20px;
+      margin-bottom: 30px;                    
+ }
+
+ .paragrafos{
+     display: flex;
+     
+ }
+
+ .main-content p{
+    font-size: 25px;
+    margin: 12px;
+    margin-left: 20px;
+    margin-bottom:px;
+
+}
+
+
 
 
   }
