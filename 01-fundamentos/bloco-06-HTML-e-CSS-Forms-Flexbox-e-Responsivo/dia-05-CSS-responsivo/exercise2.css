@@ -1,0 +1,158 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  @media only screen and (max-width: 320px){
+
+      h1{
+          text-align: center;
+          font-size: 30px;
+          background-color: burlywood;
+
+      }
+
+      h2{
+          margin-left: 22px;
+          font-size: 23px;
+      }
+
+      .container nav{
+          display: none;  
+                  
+      }
+
+      .aside-one{
+          margin-top: 30px;
+      }
+
+      .aside-one ul {
+          font-size: 16px;         
+          margin-bottom: 40px;                    
+    }
+
+    .aside-two ul {
+        font-size: 16px;
+        margin-bottom: 30px;                    
+  }
+
+  .main-content h1{
+      font-size: 28px;
+      margin-bottom: 33px;
+
+  }
+
+  .main-content p{
+      font-size: 16px;
+      margin: 10px;
+      margin-bottom:px;
+
+  }
+
+  footer{
+      margin: 10px;
+  }
+  }
+
+  @media  (min-width: 321px) and (max-width: 375px){
+
+    h1{
+        text-align: center;
+        font-size: 45px;
+        background-color: burlywood;
+
+    }
+
+    h2{
+        margin-left: 22px;
+        font-size: 32px;
+    }
+
+    .container nav{
+        display: none;  
+                
+    }
+
+    .aside-one ul {
+        font-size: 20px;         
+        margin-bottom: 40px;                    
+  }
+
+    .aside-two ul {
+      font-size: 20px;
+      margin-bottom: 30px;                    
+ }
+
+    .main-content h1{
+    font-size: 35px;
+    margin-bottom: 33px;
+
+   }
+
+   .main-content p{
+    font-size: 20px;
+    margin: 12px;
+    margin-left: 15px;
+    margin-bottom:px;
+
+}
+
+footer{
+    margin: 20px;
+    font-size: 20px;
+}
+  }
+
+  @media  (min-width: 376px) and (max-width: 768px){
+      .main{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+      }
+
+      .container nav{
+        display: none;  
+                
+    }
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+        background-color: burlywood;
+    }
+
+    h2{
+        margin-left: 0px;
+        font-size: 40px;
+    }
+
+
+    .aside-one ul {
+        font-size: 20px;         
+        margin-bottom: 40px;                    
+  }
+
+    .aside-two ul {
+      font-size: 20px;
+      margin-bottom: 30px;                    
+ }
+
+ .paragrafos{
+     display: flex;
+     
+ }
+
+ .main-content p{
+    font-size: 25px;
+    margin: 12px;
+    margin-left: 20px;
+    margin-bottom:px;
+
+}
+
+
+
+
+  }

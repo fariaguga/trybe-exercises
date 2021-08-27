@@ -16,7 +16,8 @@
   
   .logo-container {
     display: flex;
-    flex-basis: 268px;
+    flex-basis: 268 px;
+    background-color: aliceblue;
     justify-content: center;
   }
   
