@@ -58,7 +58,8 @@ const lesson1 = {
     keysObject();
 
 
-    /* 3 - Crie uma função para mostrar o tamanho de um objeto. */
+    /* 3 - Crie uma função para listar os valores de um objeto. 
+    Essa função deve receber um objeto como parâmetro*/
 
     const lesson1 = {
         materia: 'Matemática',
@@ -84,3 +85,21 @@ const lesson1 = {
         console.log(Object.values(lesson2));
     }
     valuesObject();
+
+
+
+    /* 4 - Crie uma função para mostrar o tamanho de um objeto.*/
+
+    const lesson1 = {
+        materia: 'Matemática',
+        numeroEstudantes: 20,
+        professor: 'Maria Clara',
+        turno: 'manhã',
+      };
+    
+    const listaObject = () => {
+        for(let key in lesson1) {
+            console.log(key);
+        }
+    }
+    listaObject();
